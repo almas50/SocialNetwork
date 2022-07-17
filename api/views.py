@@ -4,6 +4,7 @@ from logging import getLogger
 from rest_framework import viewsets
 from rest_framework.response import Response
 
+
 from .models import Page
 from .serializers import PageListSerializer, PageRetrieveSerializer
 from .tasks import update_page_visitors_counter

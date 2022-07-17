@@ -4,6 +4,7 @@ from collections.abc import Mapping
 from rest_framework import serializers
 from rest_polymorphic.serializers import PolymorphicSerializer
 
+
 from .models import Page, Content, VideoContent, AudioContent, TextContent
 
 
